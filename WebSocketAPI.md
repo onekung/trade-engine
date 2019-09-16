@@ -1,5 +1,5 @@
 <h1>WebSocket API protocol</h1>
-- websocket url : wss://ws.25hrbanking.io/
+<h5>- websocket url : wss://ws.25hrbanking.io/</h5>
 
 <h2>**** REQUEST/REPLY/RESPONSE ****</h2>
 
@@ -362,6 +362,62 @@ example reply: </h5>
                 "type": "buy"
             }
         ]
+    ],
+    "id": null
+}
+</pre></code>
+
+
+<h4>#24HR VOLUME UPDATE</h4>
+<h5>AUTO SUBSCRIBE ON CONNECT.</h5>
+<pre><code>
+{
+    "method": "volume_update",
+    "params": [
+        {
+            "asset": "XLM",
+            "volume": "0"
+        },
+        {
+            "asset": "USDT",
+            "volume": "30900"
+        },
+        {
+            "asset": "DAI",
+            "volume": "0"
+        },
+        {
+            "asset": "REP",
+            "volume": "0"
+        },
+        {
+            "asset": "BTC",
+            "volume": "3"
+        },
+        {
+            "asset": "EURD",
+            "volume": "0"
+        },
+        {
+            "asset": "ETH",
+            "volume": "0"
+        },
+        {
+            "asset": "BAT",
+            "volume": "0"
+        },
+        {
+            "asset": "BCH",
+            "volume": "0"
+        },
+        {
+            "asset": "LTC",
+            "volume": "0"
+        },
+        {
+            "asset": "ZRX",
+            "volume": "0"
+        }
     ],
     "id": null
 }
