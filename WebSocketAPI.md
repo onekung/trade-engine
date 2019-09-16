@@ -1,5 +1,5 @@
 <h1>WebSocket API protocol</h1>
-
+- websocket url : wss://ws.25hrbanking.io/
 
 <h2>**** REQUEST/REPLY/RESPONSE ****</h2>
 
